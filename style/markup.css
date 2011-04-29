@@ -1,6 +1,12 @@
 @charset "utf-8";
 /* hacking into the default markups to give a base theme for the pages */
 
+@font-face{
+	font-style: normal;
+	font-weight: 100px;
+	font-family: "Raleway";
+	src: url("../font/Raleway.ttf") format("truetype");
+}
 html, body {
   height: 100%;
 }

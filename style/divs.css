@@ -4,5 +4,7 @@
 #main { width: 800px; height: inherit; margin: auto; }
   #container { height: inherit; }
 	#header { height: 25%; }
+	  #sign { float: right; }
+	    #name { font-family: Raleway; font-size: 64px; color: #69C; }
 	#content { height: 60%; opacity: 0.25; overflow: auto; border-radius: 5px; background: url(../img/texture.png); }
 	#footer { height: 15%px; }
