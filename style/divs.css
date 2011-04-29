@@ -1,7 +1,24 @@
 @charset "utf-8";
-/* for layout management; applies to all the DIVs in the page */
+/* DIV layout/style management */
 
 #main {
-  width: 960px;
-  margin: auto;
+	width: 800px;
+	height: inherit;
+	margin: auto;
+}
+#container {
+	height: inherit;
+}
+#header {
+	height: 25%;
+}
+#content {
+	height: 60%;
+	opacity: 0.25;
+	overflow: auto;
+	border-radius: 5px;
+	background: url(../img/texture.png);
+}
+#footer {
+	height: 15%px;
 }
