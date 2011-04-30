@@ -3,8 +3,9 @@
 
 #main { width: 800px; height: inherit; margin: auto; }
   #container { height: inherit; }
-	#header { height: 25%; }
-	  #sign { float: right; }
+	#header { height: 30%; display: table; }
+	  #sign { display: table-cell; vertical-align: bottom; padding-bottom: 5%; }
 	    #name { font-family: Raleway; font-size: 64px; color: #69C; }
-	#content { height: 60%; opacity: 0.25; overflow: auto; border-radius: 5px; background: url(../img/texture.png); }
+	    #addr { font-family: "Courier New"; font-size: 20px; color: rgba(32,32,32,0.25);}
+	#content { height: 55%; opacity: 0.25; overflow: auto; border-radius: 5px; background: url(../img/texture.png); }
 	#footer { height: 15%px; }
