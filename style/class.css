@@ -2,13 +2,16 @@
 /* here goes the classes & sub-classes */
 
 .footNote {
-	width: 33%; padding: 5%;
+	width: 33%; padding-top: 3em;
 	display: table-cell; text-align: center;
 	font: 10px Verdana; color: #666;
 }
 .footNoteButton {
 	padding: 1em;
+	margin: 0 3em;
 }
 .footNoteButton:hover {
+	color: #933; cursor: pointer;
+	text-shadow: 0px 0px 2px #CCC;
 	box-shadow: 0px 0px 10px #ACE;
 }
