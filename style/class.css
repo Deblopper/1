@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* here goes the classes & sub-classes */
+
+.footNote {
+	width: 33%; padding-top: 5%;
+	display: table-cell; text-align: center;
+	font: 10px Verdana; color: #666;
+}
