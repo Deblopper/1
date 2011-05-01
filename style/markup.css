@@ -8,9 +8,12 @@
 	src: url("../font/Raleway.ttf") format("truetype");
 }
 html, body {
-  height: 100%;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
 }
 body {
-  margin: auto;
-  box-shadow: inset 0px 50px 500px #ACE;
+	margin: auto;
+	position: fixed;
+	box-shadow: inset 0px 50px 500px #ACE;
 }
