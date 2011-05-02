@@ -2,8 +2,19 @@
 /* here goes the classes & sub-classes */
 
 #navMain .navRef {
+	color: #C66;
+	float: right;
+	opacity: 0.25;
+	margin: 0 1px;
+	padding: 2px 10px;
 	display: table-cell;
-	border: double #000;
+	font: 16px "Arial Black";
+	border-radius: 5px 5px 0 0;
+	background: url(../img/texture.png);
+}
+#navMain .navRef:hover {
+	color: #EEE;
+	text-outline: #C66;
 }
 .footNote {
 	width: 33%; padding-top: 3em;
