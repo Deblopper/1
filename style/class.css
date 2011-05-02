@@ -4,17 +4,24 @@
 #navMain .navRef {
 	color: #C66;
 	float: right;
-	opacity: 0.25;
 	margin: 0 1px;
 	padding: 2px 10px;
-	display: table-cell;
+	position: relative;
 	font: 16px "Arial Black";
-	border-radius: 5px 5px 0 0;
-	background: url(../img/texture.png);
 }
 #navMain .navRef:hover {
 	color: #EEE;
 	text-outline: #C66;
+}
+/* Layering BG-DIV to fix inherited opacity */
+#navMain .navRef .bg {
+	top: 0px;
+	left: 0px;
+	opacity: 0.25;
+	padding: 2px 10px;
+	position: absolute;
+	border-radius: 5px 5px 0 0;
+	background: url(../img/texture.png);
 }
 .footNote {
 	width: 33%; padding-top: 3em;
