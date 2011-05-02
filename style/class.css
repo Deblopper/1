@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* here goes the classes & sub-classes */
 
+#navMain .navRef {
+	display: table-cell;
+	border: double #000;
+}
 .footNote {
 	width: 33%; padding-top: 3em;
 	display: table-cell; text-align: center;
