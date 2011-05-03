@@ -8,5 +8,5 @@
 	    #name { font: 64px Raleway; color: #69C; }
 	    #addr { font: 20px "Courier New"; color: rgba(32,32,32,0.25);}
 	  #navMain { display: table-cell; vertical-align: bottom; padding-right: 15px; position: relative; }
-	#content { height: 55%; opacity: 0.25; overflow: auto; border-radius: 5px; background: url(../img/texture.png); }
+	#content { height: 55%; width: 100%; overflow: auto; position: relative; }
 	#footer { height: 15%px; width: inherit; display: table; }
