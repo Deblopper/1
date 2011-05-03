@@ -33,11 +33,23 @@
 /* Finish Layering BG-DIV to fix inherited opacity */
 #infoContainer .infoBox {
 	width: 100%;
-	height: 64px;
 	display: table;
 	border-radius: 10px;
 	border: solid 1px rgba(128,128,128,0.25);
 	box-shadow: inset 0 2px 40px rgba(192,192,192,0.5);
+}
+#infoContainer .infoBox .infoTitle {
+	width: 100%;
+	height: 40px;
+}
+#infoContainer .infoBox .infoContent {
+	width: 100%;
+	margin: auto;
+	border: solid 1px rgba(128,128,128,0.25);
+}
+#infoContainer .infoBox .infoDetail {
+	width: 100%;
+	height: 24px;
 }
 .footNote {
 	width: 33%; padding-top: 3em;
