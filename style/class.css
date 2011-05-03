@@ -1,67 +1,33 @@
 @charset "utf-8";
 /* here goes the classes & sub-classes */
 
+/* ----------- Header ----------- */
 #navMain .navRef {
-	color: #C66;
-	float: right;
-	margin: 0 1px;
-	padding: 2px 10px;
-	position: relative;
-	font: 16px "Arial Black";
+	color: #C66; font: 16px "Arial Black";
+	float: right; position: relative; margin: 0 1px; padding: 2px 10px;
 }
-#navMain .navRef:hover {
-	color: #FFF;
-	text-shadow: 1px 1px 2px #999; /* Won't work on Chrome or IE; but I despise 'em anyway! */
-}
-.bg {
-	top: 0px;
-	left: 0px;
-	opacity: 0.25;
-	position: absolute;
-	background: url(../img/texture.png);
-}
-/* Start Layering BG-DIV to fix inherited opacity */
-#navMain .navRef .bg {
-	padding: 2px 10px;
-	border-radius: 5px 5px 0 0;
-}
-#content .bg {
-	width: 100%;
-	height: 100%;
-	border-radius: 5px;
-}
-/* Finish Layering BG-DIV to fix inherited opacity */
+#navMain .navRef:hover { color: #FFF; text-shadow: 1px 1px 2px #999; /* Won't work on Chrome or IE; but I despise 'em anyway! */ }
+
+/* ----------- Content ----------- */
 #infoContainer .infoBox {
-	width: 100%;
-	display: table;
-	border-radius: 10px;
-	border: solid 1px rgba(128,128,128,0.25);
+	width: 100%; display: table;
+	border-radius: 10px; border: solid 1px rgba(128,128,128,0.25);
 	box-shadow: inset 0 2px 40px rgba(192,192,192,0.5);
 }
-#infoContainer .infoBox .infoTitle {
-	width: 100%;
-	height: 40px;
-}
+#infoContainer .infoBox .infoTitle { width: 100%; height: 40px; }
 #infoContainer .infoBox .infoContent {
-	width: 100%;
-	margin: auto;
+	width: 100%; margin: auto;
 	border: solid 1px rgba(128,128,128,0.25);
 }
-#infoContainer .infoBox .infoDetail {
-	width: 100%;
-	height: 24px;
-}
-.footNote {
-	width: 33%; padding-top: 3em;
-	display: table-cell; text-align: center;
+#infoContainer .infoBox .infoDetail { width: 100%; height: 24px; }
+
+/* ----------- Footer ----------- */
+#footer .footNote {
 	font: 10px Verdana; color: #666;
+	width: 33%; padding-top: 3em; display: table-cell; text-align: center;
 }
-.footNoteButton {
-	padding: 1em;
-	margin: 0 3em;
-}
-.footNoteButton:hover {
+#footer .footNote .footNoteButton { padding: 1em; margin: 0 3em; }
+#footer .footNote .footNoteButton:hover {
 	color: #933; cursor: pointer;
-	text-shadow: 0px 0px 2px #CCC;
-	box-shadow: 0px 0px 10px #ACE;
+	text-shadow: 0px 0px 2px #CCC; box-shadow: 0px 0px 10px #ACE;
 }

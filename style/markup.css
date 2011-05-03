@@ -2,18 +2,11 @@
 /* hacking into the default markups to give a base theme for the pages */
 
 @font-face{
-	font-style: normal;
-	font-weight: 100px;
-	font-family: "Raleway";
+	font-style: normal; font-weight: 100px; font-family: "Raleway";
 	src: url("../font/Raleway.ttf") format("truetype");
 }
-html, body {
-	width: 100%;
-	height: 100%;
-	overflow: auto;
-}
+html, body { width: 100%; height: 100%; overflow: auto; }
 body {
-	margin: auto;
-	position: fixed;
+	margin: auto; position: fixed;
 	box-shadow: inset 0px 50px 500px #ACE;
 }
