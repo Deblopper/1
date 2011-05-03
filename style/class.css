@@ -31,6 +31,14 @@
 	border-radius: 5px;
 }
 /* Finish Layering BG-DIV to fix inherited opacity */
+#infoContainer .infoBox {
+	width: 100%;
+	height: 64px;
+	display: table;
+	border-radius: 10px;
+	border: solid 1px rgba(128,128,128,0.25);
+	box-shadow: inset 0 2px 40px rgba(192,192,192,0.5);
+}
 .footNote {
 	width: 33%; padding-top: 3em;
 	display: table-cell; text-align: center;
