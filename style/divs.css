@@ -9,4 +9,5 @@
 	    #addr { font: 20px "Courier New"; color: rgba(32,32,32,0.25);}
 	  #navMain { display: table-cell; vertical-align: bottom; padding-right: 15px; position: relative; }
 	#content { height: 55%; width: 100%; overflow: auto; position: relative; }
+	  #infoContainer { width: 80%; margin: 50px auto; top: 0; bottom: 0; left: 0; right: 0; position: absolute; border: solid #000; }
 	#footer { height: 15%px; width: inherit; display: table; }
