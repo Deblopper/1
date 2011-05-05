@@ -26,6 +26,8 @@
 }
 #infoContainer .infoBox .infoContent .infoBlock { height: 100%; min-width: 197px; display: inline-block; }
 #infoContainer .infoBox .infoContent .infoBlock:hover { box-shadow: inset 0 0 80px rgba(255,255,255,0.5); }
+#infoContainer .infoBox .infoContent .infoBlock .thumb { width: 48px; height: 48px; margin: 8px; float: left; }
+#infoContainer .infoBox .infoContent .infoBlock .notes { width: 120px; height: 48px; margin: 8px 6px; float: right; }
 #infoContainer .infoBox .infoDetail { width: 100%; height: 24px; }
 #infoContainer .infoBox .infoDetail .activity { display: inline; padding: 2px 20px; font: 14px Verdana; }
 
