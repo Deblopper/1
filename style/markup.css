@@ -2,7 +2,7 @@
 /* hacking into the default markups to give a base theme for the pages */
 
 @font-face{
-	font-style: normal; font-weight: 100px; font-family: "Raleway";
+	font-style: normal; font-family: "Raleway";
 	src: url("../font/Raleway.ttf") format("truetype");
 }
 html, body { width: 100%; height: 100%; overflow: auto; }
