@@ -16,22 +16,23 @@
 }
 #infoContainer .infoBox:hover {
 	color: rgba(255,255,255,0.75); background: rgba(96, 160, 192, 0.5);
-	text-shadow: 1px 1px 2px #999; box-shadow: inset 0 5px 40px rgba(64,96,128,0.5), 0 5px 10px rgba(192,192,192,0.5);
+	box-shadow: inset 0 5px 40px rgba(64,96,128,0.5), 0 5px 10px rgba(192,192,192,0.5);
 }
 #infoContainer .infoBox .infoTitle { width: 100%; height: 40px; }
 #infoContainer .infoBox .infoTitle .nick { display: inline; float: left; padding: 5px 20px; font: 20px Verdana; }
 #infoContainer .infoBox .infoTitle .alias { display: inline; float: right; padding: 5px 20px; font: 20px Verdana; }
-#infoContainer .infoBox .infoContent {
-	border-top: solid 1px rgba(128,128,128,0.25); border-bottom: solid 1px rgba(128,128,128,0.25);
-}
-#infoContainer .infoBox .infoContent .infoBlock { height: 100%; min-width: 197px; display: inline-block; }
-#infoContainer .infoBox .infoContent .infoBlock:hover { box-shadow: inset 0 0 80px rgba(255,255,255,0.5); }
-#infoContainer .infoBox .infoContent .infoBlock .thumb { width: 48px; height: 48px; margin: 8px; float: left; }
-#infoContainer .infoBox .infoContent .infoBlock .notes {
-	width: 128px; height: 48px;
+#infoContainer .infoBox .infoContent { border-top: solid 1px rgba(128,128,128,0.25); border-bottom: solid 1px rgba(128,128,128,0.25); }
+#infoContainer .infoBox .infoContent a { text-decoration: none !important; } /* Google Chrome Fix */
+#infoContainer .infoBox .infoContent .infoBlock {
+	height: 100%; width: 197px;
 	color: #69C; font: 10px Verdana;
-	margin: 8px 2px; float: right;
+	padding: 8px 0; display: inline-block;
 }
+#infoContainer .infoBox .infoContent .infoBlock:hover {
+	color: #666; text-shadow: 1px 1px 2px #CCC;
+	box-shadow: inset 0 0 80px rgba(255,255,255,0.5);
+}
+#infoContainer .infoBox .infoContent .infoBlock .thumb { width: 48px; height: 48px; margin: 0 8px; float: left; }
 #infoContainer .infoBox .infoDetail { width: 100%; height: 24px; }
 #infoContainer .infoBox .infoDetail .activity { display: inline; padding: 2px 20px; font: 14px Verdana; }
 
