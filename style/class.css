@@ -22,11 +22,11 @@
 #infoContainer .infoBox .infoTitle .nick { display: inline; float: left; padding: 5px 20px; font: 20px Verdana; }
 #infoContainer .infoBox .infoTitle .alias { display: inline; float: right; padding: 5px 20px; font: 20px Verdana; }
 #infoContainer .infoBox .infoContent { border-top: solid 1px rgba(128,128,128,0.25); border-bottom: solid 1px rgba(128,128,128,0.25); }
-#infoContainer .infoBox .infoContent a { text-decoration: none !important; } /* Google Chrome Fix */
 #infoContainer .infoBox .infoContent .infoBlock {
 	height: 100%; width: 197px;
 	color: #69C; font: 10px Verdana;
 	padding: 8px 0; display: inline-block;
+	text-decoration: none !important; /* Google Chrome Fix */
 }
 #infoContainer .infoBox .infoContent .infoBlock:hover {
 	color: #666; text-shadow: 1px 1px 2px #CCC;
