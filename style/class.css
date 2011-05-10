@@ -37,12 +37,6 @@
 #infoContainer .infoBox .infoDetail .activity { display: inline; padding: 2px 20px; font: 14px Verdana; }
 
 /* ----------- Footer ----------- */
-#footer .footNote {
-	font: 10px Verdana; color: #666;
-	width: 33%; padding-top: 3em; display: table-cell; text-align: center;
-}
-#footer .footNote .footNoteButton { padding: 1em; margin: 0 3em; }
-#footer .footNote .footNoteButton:hover {
-	color: #933; cursor: pointer;
-	text-shadow: 0px 0px 2px #CCC; box-shadow: 0px 0px 10px #ACE;
-}
+#footer .footNote { width: 33%; padding-top: 3em; display: table-cell; text-align: center; }
+#footer .footNote .footNoteButton { color: #666; font: 10px Verdana; padding: 1em; margin: 0 3em; text-decoration: none; }
+#footer .footNote .footNoteButton:hover { color: #933; text-shadow: 0px 0px 2px #CCC; box-shadow: 0px 0px 10px #ACE; }
