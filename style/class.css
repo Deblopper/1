@@ -7,6 +7,12 @@
 	float: right; position: relative; margin: 0 1px; padding: 2px 10px;
 }
 #navMain .navRef:hover { color: #FFF; text-shadow: 1px 1px 2px #999; }
+#navMain .contentButton {
+	color: #FFF; font: 16px "Arial Black"; text-decoration: none;
+	display: inline-block; padding: 5px 12px;
+	border: solid 2px #FFF; border-top: none;
+}
+#navMain .contentButton:hover { color: #69C; text-shadow: 1px 1px 2px #FFF; border-color: #F7F7F7; }
 
 /* ----------- Content ----------- */
 #infoContainer .infoBox {

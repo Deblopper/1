@@ -8,6 +8,7 @@
 	    #name { color: #69C; font: 64px Raleway; }
 	    #addr { color: rgba(32,32,32,0.25); font: 20px "Courier New"; }
 	  #navMain { display: table-cell; position: relative; vertical-align: bottom; padding-right: 15px; }
+	    #navMainTop { top: 0; position: absolute; padding: 0px 3px 3px; margin-left: 108px; background: #ACE; }
 	#content { width: 100%; height: 55%; position: relative; overflow: hidden; }
 	  #infoContainer { width: 100%; }
 	#footer { width: inherit; height: 15%; display: table; }
