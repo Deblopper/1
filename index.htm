@@ -25,9 +25,9 @@
               <a id="resume" class="contentButton" target="_blank" href="./Resume/" title="Coming up in HTML5, from v3.00">Resume</a>
               <a id="wishlist" class="contentButton" target="_blank" href="./Wishlist/" title="I guess no-one hates JSON">Wishlist</a>
             </div>
-            <div id="aboutsite" class="navRef">About Site<div class="bg">About Site</div></div>
-            <div id="aboutme" class="navRef">About Me<div class="bg">About Me</div></div>
-            <div id="portal" class="navRef">Portal<div class="bg">Portal</div></div>
+            <div class="navRef" onClick="toggleContainer('site','info','me')">About Site<div class="bg">About Site</div></div>
+            <div class="navRef" onClick="toggleContainer('me','info','site')">About Me<div class="bg">About Me</div></div>
+            <div class="navRef" onClick="toggleContainer('info','me','site')">Portal<div class="bg">Portal</div></div>
           </div>
         </div>
         <div id="content">
@@ -114,6 +114,8 @@
               </div>
             </div>
           </div>
+          <div id="meContainer" style="display: none;">Hello There!</div>
+          <div id="siteContainer" style="display: none;">It Works...</div>
           <p style="text-align: center; color: #999; font: 11px Verdana; line-height: 150%;">
             The content above is being reworked, as are the links which they ponint to.<br />
             This page looks best in Firefox, interacts awesome on Chrome & kinda works on Opera.

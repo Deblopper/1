@@ -6,7 +6,7 @@
 	color: #C66; font: 16px "Arial Black";
 	float: right; position: relative; margin: 0 1px; padding: 2px 10px;
 }
-#navMain .navRef:hover { color: #FFF; text-shadow: 1px 1px 2px #999; }
+#navMain .navRef:hover { color: #FFF; text-shadow: 1px 1px 2px #999; cursor: pointer; }
 #navMain .contentButton {
 	color: #FFF; font: 16px "Arial Black"; text-decoration: none;
 	display: inline-block; padding: 5px 12px;

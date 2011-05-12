@@ -10,3 +10,8 @@ function infoBlockExpand(nick0, nick1, nick2) {
 	infoBlockCollapse(nick1);
 	infoBlockCollapse(nick2);
 }
+function toggleContainer(show, hide1, hide2) {
+	document.getElementById(hide1+'Container').style.display = "none";
+	document.getElementById(hide2+'Container').style.display = "none";
+	document.getElementById(show+'Container').style.display = "block";
+}
