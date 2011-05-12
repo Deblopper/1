@@ -11,4 +11,6 @@
 	    #navMainTop { top: 0; position: absolute; padding: 0px 3px 3px; margin-left: 108px; background: #ACE; }
 	#content { width: 100%; height: 55%; min-height: 360px; position: relative; overflow: hidden; }
 	  #infoContainer { width: 100%; }
+	  #meContainer { width: 100%; min-height: 302px; margin: 20px 0; color: #666; font: 16px Verdana; }
+	  #siteContainer { width: 100%; min-height: 302px; margin: 20px 0; color: #666; font: 16px Verdana; }
 	#footer { width: inherit; height: 15%; display: table; }
