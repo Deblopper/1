@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* lighter style for subpages */
 
-@font-face{ font-style: normal; font-family: "Raleway"; src: url("http://soumyadeb.net/font/Raleway.ttf") format("truetype"); }
+@font-face{ font-style: normal; font-family: "Raleway"; src: url("../font/Raleway.ttf") format("truetype"); }
 html, body { width: 100%; height: 100%; overflow: auto; }
 body { margin: auto; position: fixed; box-shadow: inset 0px 50px 500px #ACE; }
 #main { width: 800px; height: inherit; margin: auto; }
